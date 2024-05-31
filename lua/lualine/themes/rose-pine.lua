@@ -33,8 +33,8 @@ return {
 		c = { bg = bg_base, fg = p.text },
 	},
 	inactive = {
-		a = { bg = bg_base, fg = p.muted, gui = "bold" },
-		b = { bg = bg_base, fg = p.muted },
-		c = { bg = bg_base, fg = p.muted },
+		a = { bg = p.text, fg = p.muted, gui = "bold" },
+		b = { bg = p.text, fg = p.muted },
+		c = { bg = p.text, fg = p.muted },
 	},
 }
